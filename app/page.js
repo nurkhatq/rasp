@@ -29,6 +29,298 @@ export default function Page() {
   };
 
   const allExams = {
+    'BDA-2201': [
+  {
+    id: 1,
+    date: '17.02.2025',
+    time: '09:00-10:00',
+    subject: 'ITRM',
+    location: 'C1.3.331P',
+    professor: 'Tulemisova Madina',
+    color: darkMode ? 'bg-blue-900' : 'bg-blue-200',
+    textColor: darkMode ? 'text-blue-100' : 'text-blue-900',
+    alternative: {
+      subject: 'ISF',
+      time: '10:00-11:00',
+      location: 'C1.2.231K',
+      professor: 'Balziya Aldosh'
+    }
+  },
+  {
+    id: 2,
+    date: '19.02.2025',
+    time: '17:00-18:00',
+    subject: 'BDLE2',
+    location: 'C1.3.361',
+    professor: 'Nurlan Adaliev',
+    color: darkMode ? 'bg-green-900' : 'bg-green-200',
+    textColor: darkMode ? 'text-green-100' : 'text-green-900',
+    alternative: {
+      subject: 'BIOINF',
+      time: '15:00-16:00',
+      professor: 'Kairov Ulykbek'
+    }
+  },
+  {
+    id: 3,
+    date: '21.02.2025',
+    time: '09:00-10:00',
+    subject: 'DRL',
+    location: 'IEC-303',
+    professor: 'Zholtayev Darkhan',
+    color: darkMode ? 'bg-purple-900' : 'bg-purple-200',
+    textColor: darkMode ? 'text-purple-100' : 'text-purple-900',
+  },
+  {
+    id: 4,
+    date: '22.02.2025',
+    time: '14:00-15:00',
+    subject: 'BDDA',
+    location: 'C1.3.370',
+    professor: 'Alimzhanov Yermek',
+    color: darkMode ? 'bg-pink-900' : 'bg-pink-200',
+    textColor: darkMode ? 'text-pink-100' : 'text-pink-900',
+  },
+  {
+    id: 5,
+    date: '24.02.2025',
+    time: '09:00-10:00',
+    subject: 'RMT',
+    location: 'C1.1.255P',
+    professor: 'Aigerim Mansurova',
+    color: darkMode ? 'bg-yellow-900' : 'bg-yellow-200',
+    textColor: darkMode ? 'text-yellow-100' : 'text-yellow-900',
+  },
+  {
+    id: 6,
+    date: '25.02.2025',
+    time: '09:00-10:00',
+    subject: 'NLP',
+    location: 'C1.1.365P',
+    professor: 'Aiymbay Sunggat',
+    color: darkMode ? 'bg-orange-900' : 'bg-orange-200',
+    textColor: darkMode ? 'text-orange-100' : 'text-orange-900',
+  }
+],
+'BDA-2202': [
+  {
+    id: 1,
+    date: '17.02.2025',
+    time: '09:00-10:00',
+    subject: 'ITRM',
+    location: 'C1.3.331P',
+    professor: 'Tulemisova Madina',
+    color: darkMode ? 'bg-blue-900' : 'bg-blue-200',
+    textColor: darkMode ? 'text-blue-100' : 'text-blue-900',
+    alternative: {
+      subject: 'ISF',
+      time: '11:00-12:00',
+      location: 'C1.2.231K',
+      professor: 'Balziya Aldosh'
+    }
+  },
+  {
+    id: 2,
+    date: '19.02.2025',
+    time: '17:00-18:00',
+    subject: 'BDLE2',
+    location: 'C1.3.361',
+    professor: 'Nurlan Adaliev',
+    color: darkMode ? 'bg-green-900' : 'bg-green-200',
+    textColor: darkMode ? 'text-green-100' : 'text-green-900',
+    alternative: {
+      subject: 'BIOINF',
+      time: '15:00-16:00',
+      professor: 'Kairov Ulykbek'
+    }
+  },
+  {
+    id: 3,
+    date: '21.02.2025',
+    time: '10:00-11:00',
+    subject: 'DRL',
+    location: 'IEC-303',
+    professor: 'Zholtayev Darkhan',
+    color: darkMode ? 'bg-purple-900' : 'bg-purple-200',
+    textColor: darkMode ? 'text-purple-100' : 'text-purple-900',
+  },
+  {
+    id: 4,
+    date: '22.02.2025',
+    time: '14:00-15:00',
+    subject: 'BDDA',
+    location: 'C1.3.370',
+    professor: 'Alimzhanov Yermek',
+    color: darkMode ? 'bg-pink-900' : 'bg-pink-200',
+    textColor: darkMode ? 'text-pink-100' : 'text-pink-900',
+  },
+  {
+    id: 5,
+    date: '24.02.2025',
+    time: '11:00-12:00',
+    subject: 'RMT',
+    location: 'C1.1.255P',
+    professor: 'Aigerim Mansurova',
+    color: darkMode ? 'bg-yellow-900' : 'bg-yellow-200',
+    textColor: darkMode ? 'text-yellow-100' : 'text-yellow-900',
+  },
+  {
+    id: 6,
+    date: '25.02.2025',
+    time: '10:00-11:00',
+    subject: 'NLP',
+    location: 'C1.1.365P',
+    professor: 'Aiymbay Sunggat',
+    color: darkMode ? 'bg-orange-900' : 'bg-orange-200',
+    textColor: darkMode ? 'text-orange-100' : 'text-orange-900',
+  }
+],
+'BDA-2203': [
+  {
+    id: 1,
+    date: '17.02.2025',
+    time: '10:00-11:00',
+    subject: 'ITRM',
+    location: 'C1.3.331P',
+    professor: 'Tulemisova Madina',
+    color: darkMode ? 'bg-blue-900' : 'bg-blue-200',
+    textColor: darkMode ? 'text-blue-100' : 'text-blue-900',
+    alternative: {
+      subject: 'ISF',
+      time: '12:00-13:00',
+      location: 'C1.2.231K',
+      professor: 'Balziya Aldosh'
+    }
+  },
+  {
+    id: 2,
+    date: '19.02.2025',
+    time: '17:00-18:00',
+    subject: 'BDLE2',
+    location: 'C1.3.361',
+    professor: 'Nurlan Adaliev',
+    color: darkMode ? 'bg-green-900' : 'bg-green-200',
+    textColor: darkMode ? 'text-green-100' : 'text-green-900',
+    alternative: {
+      subject: 'BIOINF',
+      time: '15:00-16:00',
+      professor: 'Kairov Ulykbek'
+    }
+  },
+  {
+    id: 3,
+    date: '21.02.2025',
+    time: '11:00-12:00',
+    subject: 'DRL',
+    location: 'IEC-303',
+    professor: 'Zholtayev Darkhan',
+    color: darkMode ? 'bg-purple-900' : 'bg-purple-200',
+    textColor: darkMode ? 'text-purple-100' : 'text-purple-900',
+  },
+  {
+    id: 4,
+    date: '22.02.2025',
+    time: '14:00-15:00',
+    subject: 'BDDA',
+    location: 'C1.3.370',
+    professor: 'Alimzhanov Yermek',
+    color: darkMode ? 'bg-pink-900' : 'bg-pink-200',
+    textColor: darkMode ? 'text-pink-100' : 'text-pink-900',
+  },
+  {
+    id: 5,
+    date: '24.02.2025',
+    time: '14:00-15:00',
+    subject: 'RMT',
+    location: 'C1.1.255P',
+    professor: 'Aigerim Mansurova',
+    color: darkMode ? 'bg-yellow-900' : 'bg-yellow-200',
+    textColor: darkMode ? 'text-yellow-100' : 'text-yellow-900',
+  },
+  {
+    id: 6,
+    date: '25.02.2025',
+    time: '11:00-12:00',
+    subject: 'NLP',
+    location: 'C1.1.365P',
+    professor: 'Aiymbay Sunggat',
+    color: darkMode ? 'bg-orange-900' : 'bg-orange-200',
+    textColor: darkMode ? 'text-orange-100' : 'text-orange-900',
+  }
+],
+'BDA-2204': [
+  {
+    id: 1,
+    date: '17.02.2025',
+    time: '09:00-10:00',
+    subject: 'ITRM',
+    location: 'C1.3.331P',
+    professor: 'Tulemisova Madina',
+    color: darkMode ? 'bg-blue-900' : 'bg-blue-200',
+    textColor: darkMode ? 'text-blue-100' : 'text-blue-900',
+    alternative: {
+      subject: 'ISF',
+      time: '10:00-11:00',
+      location: 'C1.2.239K',
+      professor: 'Tolegen Dana'
+    }
+  },
+  {
+    id: 2,
+    date: '19.02.2025',
+    time: '17:00-18:00',
+    subject: 'BDLE2',
+    location: 'C1.3.361',
+    professor: 'Nurlan Adaliev',
+    color: darkMode ? 'bg-green-900' : 'bg-green-200',
+    textColor: darkMode ? 'text-green-100' : 'text-green-900',
+    alternative: {
+      subject: 'BIOINF',
+      time: '15:00-16:00',
+      professor: 'Kairov Ulykbek'
+    }
+  },
+  {
+    id: 3,
+    date: '21.02.2025',
+    time: '12:00-13:00',
+    subject: 'DRL',
+    location: 'IEC-303',
+    professor: 'Zholtayev Darkhan',
+    color: darkMode ? 'bg-purple-900' : 'bg-purple-200',
+    textColor: darkMode ? 'text-purple-100' : 'text-purple-900',
+  },
+  {
+    id: 4,
+    date: '22.02.2025',
+    time: '14:00-15:00',
+    subject: 'BDDA',
+    location: 'C1.3.370',
+    professor: 'Alimzhanov Yermek',
+    color: darkMode ? 'bg-pink-900' : 'bg-pink-200',
+    textColor: darkMode ? 'text-pink-100' : 'text-pink-900',
+  },
+  {
+    id: 5,
+    date: '24.02.2025',
+    time: '16:00-17:00',
+    subject: 'RMT',
+    location: 'C1.1.255P',
+    professor: 'Aigerim Mansurova',
+    color: darkMode ? 'bg-yellow-900' : 'bg-yellow-200',
+    textColor: darkMode ? 'text-yellow-100' : 'text-yellow-900',
+  },
+  {
+    id: 6,
+    date: '25.02.2025',
+    time: '12:00-13:00',
+    subject: 'NLP',
+    location: 'C1.1.365P',
+    professor: 'Aiymbay Sunggat',
+    color: darkMode ? 'bg-orange-900' : 'bg-orange-200',
+    textColor: darkMode ? 'text-orange-100' : 'text-orange-900',
+  }
+],
     'BDA-2205': [
       {
         id: 1,
@@ -284,7 +576,7 @@ export default function Page() {
 
   return (
     <main className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900' : 'bg-gray-100'} py-8`}>
-      <div className="w-full max-w-3xl mx-auto px-4">
+      <div className="w-full max-w-3xl mx-auto px-2 sm:px-4">
         {/* Header */}
         <div className="flex justify-between items-center mb-6">
           <h1 className={`text-3xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
@@ -299,53 +591,53 @@ export default function Page() {
         </div>
 
         {/* Group Tabs */}
-        <div className="flex gap-2 mb-6">
-          {Object.keys(allExams).map((group) => (
-            <button
-              key={group}
-              onClick={() => setSelectedGroup(group)}
-              className={`px-4 py-2 rounded-lg font-semibold transition-colors
-                ${selectedGroup === group 
-                  ? (darkMode ? 'bg-blue-600 text-white' : 'bg-blue-500 text-white')
-                  : (darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-200 text-gray-700')
-                }
-                hover:opacity-90`}
-            >
-              {group}
-            </button>
-          ))}
-        </div>
+<div className="flex flex-wrap gap-2 mb-6">
+  {Object.keys(allExams).map((group) => (
+    <button
+      key={group}
+      onClick={() => setSelectedGroup(group)}
+      className={`px-3 py-1.5 text-sm sm:px-4 sm:py-2 sm:text-base rounded-lg font-semibold transition-colors
+        ${selectedGroup === group 
+          ? (darkMode ? 'bg-blue-600 text-white' : 'bg-blue-500 text-white')
+          : (darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-200 text-gray-700')
+        }
+        hover:opacity-90 whitespace-nowrap`}
+    >
+      {group}
+    </button>
+  ))}
+</div>
 
-        {/* Course Selection */}
-        <div className={`mb-6 p-4 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
-          <h2 className={`text-lg font-semibold mb-3 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-            Выберите ваши курсы:
-          </h2>
-          <div className="space-y-4">
-            {Object.entries(electivePairs).map(([pairKey, courses]) => (
-              <div key={pairKey} className="flex items-center gap-4">
-                {courses.map(course => (
-                  <button
-                    key={course}
-                    onClick={() => setSelectedCourses(prev => ({
-                      ...prev,
-                      [pairKey]: course
-                    }))}
-                    className={`px-4 py-2 rounded-lg transition-colors ${
-                      selectedCourses[pairKey] === course
-                        ? 'bg-blue-500 text-white'
-                        : darkMode 
-                          ? 'bg-gray-700 text-gray-300'
-                          : 'bg-gray-200 text-gray-700'
-                    }`}
-                  >
-                    {course}
-                  </button>
-                ))}
-              </div>
-            ))}
-          </div>
-        </div>
+{/* Course Selection - also update this to be more mobile friendly */}
+<div className={`mb-6 p-3 sm:p-4 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
+  <h2 className={`text-base sm:text-lg font-semibold mb-3 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+    Выберите ваши курсы:
+  </h2>
+  <div className="space-y-3">
+    {Object.entries(electivePairs).map(([pairKey, courses]) => (
+      <div key={pairKey} className="flex flex-wrap items-center gap-2">
+        {courses.map(course => (
+          <button
+            key={course}
+            onClick={() => setSelectedCourses(prev => ({
+              ...prev,
+              [pairKey]: course
+            }))}
+            className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
+              selectedCourses[pairKey] === course
+                ? 'bg-blue-500 text-white'
+                : darkMode 
+                  ? 'bg-gray-700 text-gray-300'
+                  : 'bg-gray-200 text-gray-700'
+            }`}
+          >
+            {course}
+          </button>
+        ))}
+      </div>
+    ))}
+  </div>
+</div>
 
         {/* Exam Cards */}
         <div className="space-y-4">
