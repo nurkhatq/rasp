@@ -493,6 +493,7 @@ export default function Page() {
         textColor: darkMode ? 'text-green-100' : 'text-green-900',
         alternative: {
           subject: 'BIOINF',
+          time: '15:00-16:00',
           professor: 'Kairo Ulykbek'
         }
       },
